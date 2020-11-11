@@ -1,0 +1,35 @@
+body {
+	background-image: url(../recipes.jpg);
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	color: white;
+
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	float: Left;
+	list-style-type: none;
+}
+ul li{
+	display: inline-block;
+	background-color: white;
+}
+
+ul li a{
+	text-decoration: none;
+	text-align: center;
+	font-color: white;
+	font-family: sans-serif;
+	padding: 5px 20px;
+	boarder: 1px solid #fff;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+
+}
